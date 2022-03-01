@@ -27,7 +27,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked witha range of technologies in the web development and
+      I've worked with a range of technologies in the web development and
       artificial intelligence.
     </SectionText>
     <List>
