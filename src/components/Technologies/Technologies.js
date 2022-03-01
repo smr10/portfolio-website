@@ -1,5 +1,12 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import {
+  DiAppcelerator,
+  DiFirebase,
+  DiReact,
+  DiZend,
+  Di,
+} from "react-icons/di";
+import { GiBrain } from "react-icons/gi";
 import {
   Section,
   SectionDivider,
@@ -20,8 +27,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked witha range of technologies in the web development world. from
-      Back-end to design.
+      I've worked witha range of technologies in the web development and
+      artificial intelligence.
     </SectionText>
     <List>
       <ListItem>
@@ -54,6 +61,17 @@ const Technologies = () => (
             Experienced with
             <br />
             Adobe XD
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <GiBrain size="3rem" />
+        <ListContainer>
+          <ListTitle>Artificial Intelligence</ListTitle>
+          <ListParagraph>
+            Experienced with
+            <br />
+            Python
           </ListParagraph>
         </ListContainer>
       </ListItem>
