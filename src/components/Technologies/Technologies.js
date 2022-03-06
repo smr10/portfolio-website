@@ -7,6 +7,7 @@ import {
   Di,
 } from "react-icons/di";
 import { GiBrain } from "react-icons/gi";
+import { BiGitCompare } from "react-icons/bi";
 import {
   Section,
   SectionDivider,
@@ -72,6 +73,18 @@ const Technologies = () => (
             Experienced with
             <br />
             Python
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <BiGitCompare size="3rem" />
+        <ListContainer>
+          <ListTitle>Automation</ListTitle>
+          <ListParagraph>
+            Experienced with
+            <br />
+            Selenium, Microsoft Power Automate <br />
+            and Katalon Studios
           </ListParagraph>
         </ListContainer>
       </ListItem>
